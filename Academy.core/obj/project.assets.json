@@ -2019,46 +2019,6 @@
             "related": ".pdb;.xml"
           }
         }
-      },
-      "Academy.core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "SharePointPnPCoreOnline": "3.28.2012"
-        },
-        "compile": {
-          "bin/placeholder/Academy.core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Academy.core.dll": {}
-        }
-      },
-      "Academy.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Academy.core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Academy.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Academy.Data.dll": {}
-        }
-      },
-      "Academy.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Academy.Data": "1.0.0",
-          "Academy.core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Academy.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Academy.Service.dll": {}
-        }
       }
     }
   },
@@ -6519,26 +6479,11 @@
         "windowsazure.storage.7.0.0.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
-    },
-    "Academy.core/1.0.0": {
-      "type": "project",
-      "path": "../Academy.core/Academy.core.csproj",
-      "msbuildProject": "../Academy.core/Academy.core.csproj"
-    },
-    "Academy.Data/1.0.0": {
-      "type": "project",
-      "path": "../AcademyData/Academy.Data.csproj",
-      "msbuildProject": "../AcademyData/Academy.Data.csproj"
-    },
-    "Academy.Service/1.0.0": {
-      "type": "project",
-      "path": "../Academy.Service/Academy.Service.csproj",
-      "msbuildProject": "../Academy.Service/Academy.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Academy.Service >= 1.0.0"
+      "SharePointPnPCoreOnline >= 3.28.2012"
     ]
   },
   "packageFolders": {
@@ -6548,11 +6493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.app\\Academy.app.csproj",
-      "projectName": "Academy.app",
-      "projectPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.app\\Academy.app.csproj",
+      "projectUniqueName": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.core\\Academy.core.csproj",
+      "projectName": "Academy.core",
+      "projectPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.core\\Academy.core.csproj",
       "packagesPath": "C:\\Users\\Nihat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.app\\obj\\",
+      "outputPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6572,11 +6517,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.Service\\Academy.Service.csproj": {
-              "projectPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.Service\\Academy.Service.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -6588,6 +6529,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "SharePointPnPCoreOnline": {
+            "target": "Package",
+            "version": "[3.28.2012, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

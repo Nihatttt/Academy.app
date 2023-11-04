@@ -2045,20 +2045,6 @@
         "runtime": {
           "bin/placeholder/Academy.Data.dll": {}
         }
-      },
-      "Academy.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Academy.Data": "1.0.0",
-          "Academy.core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Academy.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Academy.Service.dll": {}
-        }
       }
     }
   },
@@ -6529,16 +6515,12 @@
       "type": "project",
       "path": "../AcademyData/Academy.Data.csproj",
       "msbuildProject": "../AcademyData/Academy.Data.csproj"
-    },
-    "Academy.Service/1.0.0": {
-      "type": "project",
-      "path": "../Academy.Service/Academy.Service.csproj",
-      "msbuildProject": "../Academy.Service/Academy.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Academy.Service >= 1.0.0"
+      "Academy.Data >= 1.0.0",
+      "Academy.core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6548,11 +6530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.app\\Academy.app.csproj",
-      "projectName": "Academy.app",
-      "projectPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.app\\Academy.app.csproj",
+      "projectUniqueName": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.Service\\Academy.Service.csproj",
+      "projectName": "Academy.Service",
+      "projectPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.Service\\Academy.Service.csproj",
       "packagesPath": "C:\\Users\\Nihat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.app\\obj\\",
+      "outputPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6573,8 +6555,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.Service\\Academy.Service.csproj": {
-              "projectPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.Service\\Academy.Service.csproj"
+            "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.core\\Academy.core.csproj": {
+              "projectPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.core\\Academy.core.csproj"
+            },
+            "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\AcademyData\\Academy.Data.csproj": {
+              "projectPath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\AcademyData\\Academy.Data.csproj"
             }
           }
         }

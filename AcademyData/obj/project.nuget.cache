@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w/bm+Diu8XjCpZry9Ws2SFtmqlcA7xPcnLCD9AfKEiGA2aTpfcJCKegw67tM36zWmXiZZa17ePY/L99ClzkNRg==",
+  "dgSpecHash": "joARzughhjcTIB34XZixILzTBdYhFD98NhpBfn4Gux+u9Lo1xzfvckMs6oMAJnOZQhBe1jpKyZ1ZCza84BRotA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\Academy.app\\Academy.app.csproj",
+  "projectFilePath": "C:\\Users\\Nihat\\OneDrive\\Desktop\\coding\\Academy.app\\AcademyData\\Academy.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nihat\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Nihat\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.3\\microsoft.aspnet.webapi.client.5.2.3.nupkg.sha512",

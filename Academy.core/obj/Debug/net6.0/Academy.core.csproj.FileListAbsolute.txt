@@ -1,0 +1,12 @@
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\bin\Debug\net6.0\Academy.core.deps.json
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\bin\Debug\net6.0\Academy.core.dll
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\bin\Debug\net6.0\Academy.core.pdb
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\obj\Debug\net6.0\Academy.core.csproj.AssemblyReference.cache
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\obj\Debug\net6.0\Academy.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\obj\Debug\net6.0\Academy.core.AssemblyInfoInputs.cache
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\obj\Debug\net6.0\Academy.core.AssemblyInfo.cs
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\obj\Debug\net6.0\Academy.core.csproj.CoreCompileInputs.cache
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\obj\Debug\net6.0\Academy.core.dll
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\obj\Debug\net6.0\refint\Academy.core.dll
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\obj\Debug\net6.0\Academy.core.pdb
+C:\Users\Nihat\OneDrive\Desktop\coding\Academy.app\Academy.core\obj\Debug\net6.0\ref\Academy.core.dll

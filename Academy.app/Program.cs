@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+using Academy.Service.Services.Implementations;
+
+MenuService menuService = new MenuService();
+menuService.RunApp();
